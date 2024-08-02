@@ -1,0 +1,60 @@
+body{
+   
+    background-image: url(../img/man.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 866px;
+    margin: 0;
+    padding: 0;}
+
+.registration{
+height: 40px;
+width: 695px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border: 1px solid #9450e7;
+background-color: rgba(0, 0, 0, .5);
+position:sticky;
+top: 1px;}
+
+.registration a{
+    margin: 10px ;
+
+
+}
+.a2{
+    margin: 10px 10px 10px 325px;
+
+}
+.a3{
+    margin: 10px 10px 10px 10px;
+
+}
+.menu{
+    height: 50px;
+    width: 695px; 
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+border: 1px solid #9450e7;
+background-color: rgba(0, 0, 0, .5);
+
+}
+.menu a{
+    margin:30PX;
+}
+
+.q{
+    font-weight: bold;
+font-size: 100px;
+text-align:center;
+font-family: "Playwrite AT", cursive;
+}
+.p1{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    width: fit-content;
+    border: 1px solid #9450e7;
+background-color: rgba(0, 0, 0, .5);
+}
+
