@@ -3,6 +3,7 @@ body{
     background-image: url(../img/man.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    width: 1000px;
     height: 866px;
     margin: 0;
     padding: 0;}
