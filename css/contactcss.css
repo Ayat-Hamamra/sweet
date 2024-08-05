@@ -10,6 +10,7 @@ body{
     padding: 0;
 }
 .circular{
+    font-size: 120px;
     display: flex;
     height: 40px;
     width: 40px;
