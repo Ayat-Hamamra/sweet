@@ -1,6 +1,6 @@
 body{
    
-    background-image: url(../img/man.jpg);
+    background-image: url(../img/man2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 1000px;
@@ -9,6 +9,9 @@ body{
 }
 
 .registration{
+ display: flex;
+justify-content: space-around;
+align-items: center;
 height: 50px;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
@@ -16,39 +19,41 @@ border: 1px solid #9450e7;
 background-color: rgba(0, 0, 0, .5);
 position:sticky;
 top: 1px;
-}
-
-.registration a{
-    margin: 10px ;
-
+flex-wrap: nowrap;
 
 }
-.a2{
-    margin: 10px 10px 10px 300px;
-
+.registration button{
+    font-weight: bold;
+ border-radius: 10px;
+    width: 150px;
+    height: 30px;
 }
-.a3{
-    margin: 10px 10px 10px 10px;
 
-}
+
 .menu{
+ display: flex;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 50px;
     border-radius: 10px;
-    border-bottom-left-radius: 10px;
 border: 1px solid #9450e7;
 background-color: rgba(0, 0, 0, .5);
 
 }
-.menu a{
-    margin:30PX;
+.menu button{
+    font-weight: bold;
+ border-radius: 10px;
+    width: 100px;
 }
 
-.q{
+.name{
     font-weight: bold;
 font-size: 100px;
 text-align:center;
 font-family: "Playwrite AT", cursive;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 
 }
 .p1{
