@@ -1,73 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
 body{
    
     background-image: url(../img/man2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 1000px;
-    margin: 0;
-    padding: 0;
+    Background-attachment:fixed
 }
-
+.container{
+    width: 80%;
+    margin:auto;
+}
+.registration .container{
+    display: flex;
+}
 .registration{
- display: flex;
-justify-content: space-around;
-align-items: center;
-height: 50px;
-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 border: 1px solid #9450e7;
-background-color: rgba(0, 0, 0, .5);
-position:sticky;
-top: 1px;
-flex-wrap: nowrap;
-
+    background-color: rgb(0,0,0,.5);
+    position:sticky;
+    top: .1px;
 }
-.registration button{
-    font-size: 20px;
-    font-weight: bold;
- border-radius: 10px;
-    width: 150px;
-    height: 30px;
-}
-
-
-.menu{
-    font-size: 15px;
- display: flex;
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    border-radius: 10px;
-border: 1px solid #9450e7;
-background-color: rgba(0, 0, 0, .5);
-
-}
-.menu button{
-    font-weight: bold;
- border-radius: 10px;
+.logo img{
+    
     width: 100px;
-}
-
-.name{
-    font-size: 120px;
+    height: 40px;
     font-weight: bold;
-font-size: 100px;
-text-align:center;
-font-family: "Playwrite AT", cursive;
-flex-wrap: nowrap;
+    border-radius: 10px;
+    border: 1px solid #9450e7;
 
+}
+.logo{
+    width: 30%;
 }
 .p1{
+    display: flex;
+    flex-grow: 1;
+    text-transform: capitalize;
+     align-items:center ;
+    justify-content:flex-end ;
+    justify-content: space-around;
+    
+}
+.p1 button{
     font-size: 20px;
- 
-    text-align: center;
+    width: 150px;
     font-weight: bold;
     border-radius: 10px;
     border: 1px solid #9450e7;
     flex-wrap: nowrap;
+    transition-duration: 1s;
+    transition:transform(2s),opacity(2s);
 
-background-color: rgba(0, 0, 0, .5);
 }
+.p1 button:hover {
+    transform: scale(1.2);
+background-color: rgb(0, 0,0, .1);
+color: #fff;
+}
+.name {
+    margin-top: 170px;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
 
+}
+.name p{
+    transition:transform(2s);
+    text-shadow: 10px 10px 11px ;
+}
+.name p:hover{
+    transform: scale(.9);
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+align-items: center;
+margin-top: 170px;
+}
+.menu div{
+    width: 190px ;
+    height: 190px;
+    border: 1px solid #9450e7;
+    background-color: aqua;
+    justify-content: center;
+}

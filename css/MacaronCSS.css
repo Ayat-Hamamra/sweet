@@ -18,6 +18,7 @@ body{
 justify-content: center; 
 margin: 10px;}
 .name{
+    display: flex;
     font-size: 150px;
     font-weight: bold;
 font-size: 100px;
