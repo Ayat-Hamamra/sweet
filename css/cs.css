@@ -1,14 +1,19 @@
 *{
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    text-decoration: none;
+
 }
+
 body{
-   
+    height: 1000px;
+}
+.main{
+    margin-top: 0;
     background-image: url(../img/man2.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 1000px;
-    Background-attachment:fixed
+    background-size: cover;
+    height: 30%;
 }
 .container{
     width: 80%;
@@ -48,7 +53,7 @@ border: 1px solid #9450e7;
 }
 .p1 button{
     font-size: 20px;
-    width: 150px;
+    width: 110%;
     font-weight: bold;
     border-radius: 10px;
     border: 1px solid #9450e7;
@@ -63,8 +68,8 @@ background-color: rgb(0, 0,0, .1);
 color: #fff;
 }
 .name {
-    margin-top: 170px;
-    font-size: 120px;
+    margin-top: 70px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -73,6 +78,8 @@ color: #fff;
 }
 .name p{
     transition:transform(2s);
+    transition-duration: 1s;
+
     text-shadow: 10px 10px 11px ;
 }
 .name p:hover{
@@ -84,12 +91,65 @@ color: #fff;
     justify-content: space-around;
     align-content: center;
 align-items: center;
-margin-top: 170px;
+margin-top: 100px;
 }
-.menu div{
-    width: 190px ;
-    height: 190px;
+.item-1{
+    width: 170px ;
+    height: 250px;
     border: 1px solid #9450e7;
-    background-color: aqua;
+    background-color: rgb(0, 0,0, .3);
     justify-content: center;
+}
+
+.img img{
+    width: 150px;
+    height: 170px;
+    margin: 10px;
+    transition-duration: 1s;
+
+    transition:transform(2s);
+ box-shadow: 0px 10px 10px  5px rgba(15, 11, 11, 0.32);
+
+  }
+  .img img:hover{
+    transform: scale(1.1);
+
+    }
+  .Price p{
+    color: black;
+   text-align: center;
+   margin-top: 10px;
+ font-size: 25px;
+ text-shadow: 0px  9px 12px rgba(15, 11, 11, 0.32) ;
+  }
+        a:hover{
+        text-decoration-line:underline ;
+
+
+            }
+
+.end{
+    display: flex;
+
+    height: 300px;
+    background-color: rgba(230, 131, 185, 0.158);
+    margin-top: 80px;
+}
+.z1{
+    text-align: center;
+align-content:center;}
+.z1 p{
+    font-size: 20px;
+    color: #4d1436;
+    
+}
+.z2{
+    display: flex;
+    justify-content: center;
+    padding-top:20px ;
+
+}
+.z2 p{
+    margin: 15px;
+
 }
